@@ -1,6 +1,6 @@
 # npmtest-connect-pg-simple
 
-#### test coverage for  [connect-pg-simple (v3.1.2)](https://github.com/voxpelli/node-connect-pg-simple#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-connect-pg-simple.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-connect-pg-simple) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-connect-pg-simple.svg)](https://travis-ci.org/npmtest/node-npmtest-connect-pg-simple)
+#### basic test coverage for  [connect-pg-simple (v3.1.2)](https://github.com/voxpelli/node-connect-pg-simple#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-connect-pg-simple.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-connect-pg-simple) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-connect-pg-simple.svg)](https://travis-ci.org/npmtest/node-npmtest-connect-pg-simple)
 
 #### A simple, minimal PostgreSQL session store for Connect/Express
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-connect-pg-simple/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-connect-pg-simple/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-connect-pg-simple/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-connect-pg-simple/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-connect-pg-simple/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-connect-pg-simple/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-connect-pg-simple/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-connect-pg-simple/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-connect-pg-simple/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-connect-pg-simple/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-connect-pg-simple/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-connect-pg-simple/build/coverage.html/index.html)
 
@@ -87,7 +87,8 @@
         "test-all": "node -e \"require('grunt').tasks(['test-all']);\""
     },
     "url": "http://github.com/voxpelli/node-connect-pg-simple",
-    "version": "3.1.2"
+    "version": "3.1.2",
+    "bin": {}
 }
 ```
 
